@@ -23,8 +23,8 @@ for dataset in ['training', 'testing', 'validation']:
     filepath = f'../OP_datasets/RSDD/{dataset}'
     header = ['user_id', 'timestamp', 'text']
 
-    depression_path = f'data_depression/{dataset}/raw.csv'
-    control_path    = f'data_control/{dataset}/raw.csv'
+    depression_path = f'../data_depression/{dataset}/raw.csv'
+    control_path    = f'../data_control/{dataset}/raw.csv'
 
     count_user = 0
     count_control = 0

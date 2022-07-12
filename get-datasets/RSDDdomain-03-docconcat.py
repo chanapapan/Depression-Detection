@@ -14,12 +14,12 @@ d_class      = 'depression' # / 'control'
 
 # In[5]:
 
-d1_text_path = f'data_{d_class}/training/finclean_0529.txt'
+d1_text_path = f'../data_{d_class}/training/finclean_0529.txt'
 with open(d1_text_path) as text_file:
     d1_text_all = text_file.readlines()
     print(len(d1_text_all))
     
-d1_user_path = f'data_{d_class}/training/user_id.txt'
+d1_user_path = f'../data_{d_class}/training/user_id.txt'
 with open(d1_user_path) as user_id:
     d1_user_all = user_id.readlines()
     d1_user_all = [int(x) for x in d1_user_all]
@@ -35,7 +35,7 @@ with open(d1_user_path) as user_id:
 # one line = all posts from one user
 count_users = 0
 
-d1_concat_path = f'data_{d_class}/training/concat_0529.txt'
+d1_concat_path = f'../data_{d_class}/training/concat_0529.txt'
 
 with open(d1_concat_path, 'w') as d1_concat:
     for user in unique_user:
