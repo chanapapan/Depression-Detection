@@ -220,14 +220,6 @@ class PROPrandomMLMDataset(Dataset):
                 self.list_masked_text.append(self.tokenizer.decode(this_input_ids.clone()))
                 self.list_labels.append(label.clone())
                 
-                # print(this_input_ids)
-                # print(label)
-                # print(word_ids[i])
-                # print(orig_text[i])
-                
-                # print(masked_input_ids[10].clone())
-                # print(masked_labels[10].clone())
-                
         assert len(self.list_input_ids) == len(self.list_word_ids) == len(self.list_attention_mask) == len(self.list_orig_text) == len(self.list_masked_text) == len(self.list_labels)
 
 
