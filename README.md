@@ -21,7 +21,9 @@ Reddit Self-reported Depression Diagnosis (RSDD) dataset (https://georgetown-ir-
 7. Neural Network <code>NN</code> (adapted from https://github.com/thunlp/SelectiveMasking)
 
 <code>get_datasets</code> contains python script and .ipynb files for extracting, preprocesing and creating the dataset objects for training
+
 <code>keyword</code> contains .ipynb files for obtaining the keywords and the resulting keywords in .txt format
+
 <code>src</code> contain the source code for creating a masked dataset and training & evaluation loop
 
 
