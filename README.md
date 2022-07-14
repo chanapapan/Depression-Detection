@@ -11,7 +11,7 @@ The datasets should be loaded into the <code>OP_datasets</code> folder
 ## Training Approaches
 - BERT further pre-train + fine-tune <code>FURTHER-01-MLM.py</code> and <code>FURTHER-02-classi.py</code> (adapted from https://github.com/GU-DataLab/stance-detection-KE-MLM and https://github.com/thunlp/SelectiveMasking)
 - BERT fine-tune with reconstruction objective <code>MASKER.py</code> (adapted from https://github.com/alinlab/MASKER)
-- Standard BERT fine-tune
+- Standard BERT fine-tune <code>BASE-classi.py</code>
 
 ## Selective Masking Methods
 1. Random masking <code>random</code>
