@@ -1,4 +1,3 @@
-Comparing Selective Masking Methods for Depression Detection in Social Media
 # Comparing Selective Masking Methods for Depression Detection in Social Media
 
 ## Abstract
